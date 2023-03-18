@@ -13,10 +13,10 @@ static const char col_gray4[]       = "#ffffff";
 static const char col_cyan[]        = "#00aaff";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
-	[SchemeTabActive]  = { col_gray2, col_gray3,  col_gray2 },
-	[SchemeTabInactive]  = { col_gray1, col_gray3,  col_gray1 }
+	[SchemeNorm]         = { col_gray3, col_gray1, col_gray2 },
+	[SchemeSel]          = { col_gray4, col_cyan,  col_cyan  },
+	[SchemeTabActive]    = { col_gray2, col_gray3,  col_gray2 },
+	[SchemeTabInactive]  = { col_gray3, col_gray1,  col_gray1 }
 };
 
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
