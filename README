@@ -4,12 +4,13 @@ dwm is an extremely fast, small, and dynamic window manager for X.
 
 Patches  
 -------  
-centretitle
+centretitle (Currently not working because of bartaggroups)
 activetagindicator
 status2d
 slocklock (custom)
 barheight
 noborder
+bartaggroups
 
 Requirements
 ------------
